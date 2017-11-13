@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env":{
+    "browser": true,
+    "node": true
+  },
+
+  "extends": "airbnb",
+  "rules": {
+    "semi": [2,"never"],
+    "max-len":[1,200,2],
+    "linebreak-style": [ 0, "windows" ],
+    "react/prefer-stateless-function":[ 0, { "ignorePureComponents": true} ],
+    "react/jsx-filename-extension": [0] // No, JSX belongs to .js files
+  }
+}
